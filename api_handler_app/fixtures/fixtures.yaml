@@ -1,0 +1,84 @@
+- model: api_handler_app.Players
+  pk: 1
+  fields:
+    puuid: 0cwiVLyxC_KZRMvy88EACuzQ6sbS9nJ6ouciVv8QgxvQhPaKc2vspsjKYPguHXBQERYjRVAfn9C5AQ
+    name: Jasqualan
+    tag: 1537
+    rank: 0
+- model: api_handler_app.Players
+  pk: 2
+  fields:
+    puuid: W4quN1CtSLNhdv2PnSNVDaThuyt2X21VYGGT0TtD03GX4hQt3WKwp-KAw7E8ilf-KON9SRjELbUAKQ
+    name: Baron Von Flex
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 3
+  fields:
+    puuid: 6VOHKyQIZOFGjZQX-y3Fo3RRNJwoiAqNNP5nuSafF655ErHYaIhNjjemSPgjCBqhsUwslzeRkM2s8w
+    name: ashibish
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 4
+  fields:
+    puuid: 0TTntSkOUxKjD8Gy692HxFetNYIkblkc1bJ9pfeNKH_MfSn3WXCGViBUM-YnaUfQuKtjnVeoZmwK8g
+    name: CarelessCarl
+    tag: 1944
+    rank: 0
+- model: api_handler_app.Players
+  pk: 5
+  fields:
+    puuid: 6qlwOTK73RJbekZL-qbNNVrL8cYuE8I9nNLXrQo5JhuspBFbak_UgdEMiAJc9R74LcWHyeGu83kUmQ
+    name: ArtyThePirate
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 6
+  fields:
+    puuid: TD-2fhJAS0ABYMp1pXgXsvwiXpCz4LzdBqgkx0uHr1C3v725eIPdFSU3JnV_h9qdl8q9XSdKLBUwVw
+    name: Coprsmells
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 7
+  fields:
+    puuid: fu4N_yVI8wRiWCnjPaK2L3Gn1zhjjoSMZfqtCV3xilRddFXxuIWlSOaeULn9LZplz81ZBc95xeCAHw
+    name: Blippy
+    tag: 2319
+    rank: 0
+- model: api_handler_app.Players
+  pk: 8
+  fields:
+    puuid: D2Gm1lhMCM-Vf6X7-9hzz5lJYDHv_0mn7_fa8p9m8o4oCHNFqDjCuNZvdXOOaWHHx9Rli12X-ChMFw
+    name: LurkingArmidilo
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 9
+  fields:
+    puuid: TZ7MWAlJk0SzXo-1QlN68qszNfwA1YHrc4h2TfnAMFJpCpXVSYsDGqF1RaI2GJUst03jwVeEC4yONw
+    name: Net Brutality
+    tag: NA1
+    rank: 0
+- model: api_handler_app.Players
+  pk: 10
+  fields:
+    puuid: EtqfMLMKM9g1a_-QA33ZDrhAD2fNtNgMS_ZGVQkDxSCs3TsCkURQEi9q-S312U0SvNJJJ8u0SzO33w
+    name: DukeOfWhales
+    tag: 14858
+    rank: 0
+- model: api_handler_app.Players
+  pk: 11
+  fields:
+    puuid: ki_YYgVfqyMBWLDyRjzW_d7OmTWNYoLf5FxaCMBZ4b1BDwyzyl4j89TTlVDiGYhBsidRvIlyHmphhg
+    name: Gallons
+    tag: 4088
+    rank: 0
+- model: api_handler_app.Players
+  pk: 12
+  fields:
+    puuid: WFfRg9Ol0J3bqqVbgLe3mK64dkuDPvkN0dD1UCSEkyEcrGmOipmmj-Yvw29Q3l00UMwJLTKBK6khMg
+    name: Zabakes
+    tag: NA1
+    rank: 0
