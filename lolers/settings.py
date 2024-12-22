@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
-    'api_handler_app',
+    'lolers_app',
 ]
 
 MIDDLEWARE = [

@@ -1,14 +1,8 @@
 from rest_framework import viewsets
 
-from .models import (
-    Players,
-    GameData
-)
+from .models import Players, GameData
 
-from .serializers import (
-    PlayersSerializer,
-    GameDataSerializer
-)
+from .serializers import PlayersSerializer, GameDataSerializer
 
 
 class PlayersViewSet(viewsets.ModelViewSet):

@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from api_handler_app.views import (
+from lolers_app.views import (
     PlayersViewSet,
     GameDataViewSet,
 )

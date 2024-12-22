@@ -1,9 +1,6 @@
 from rest_framework import serializers
 
-from api_handler_app.models import (
-    Players,
-    GameData
-)
+from lolers_app.models import Players, GameData
 
 
 class PlayersSerializer(serializers.ModelSerializer):
