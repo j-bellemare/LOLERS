@@ -10,5 +10,5 @@ router.register(r"players", PlayersViewSet, basename="players")
 router.register(r"gamedata", GameDataViewSet, basename="gamedata")
 
 urlpatterns = [
-    path("api/handler/", include(router.urls)),
+    path("api/lolers/", include(router.urls)),
 ]

@@ -21,19 +21,31 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
-schema_view_handler = get_schema_view(
-    openapi.Info(title="API Handler", default_version="v1"),
+schema_view_lolers = get_schema_view(
+    openapi.Info(title="API Lolers", default_version="v1"),
     public=True,
     permission_classes=(permissions.AllowAny,),
     urlconf="lolers_app.urls",
+)
+schema_view_riot_api_app = get_schema_view(
+    openapi.Info(title="Riot API Caller", default_version="v1"),
+    public=True,
+    permission_classes=(permissions.AllowAny,),
+    urlconf="riot_api_app.urls",
 )
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("lolers_app.urls")),
     re_path(
-        r"^swagger/handler/?$",
-        schema_view_handler.with_ui("swagger", cache_timeout=0),
+        r"^swagger/lolers/?$",
+        schema_view_lolers.with_ui("swagger", cache_timeout=0),
         name="schema-swagger-ui",
     ),
+    path("", include("riot_api_app.urls")),
+    re_path(
+        r"^swagger/riot_api_app/?$",
+        schema_view_riot_api_app.with_ui("swagger", cache_timeout=0),
+        name="schema-sagger-ui",
+    )
 ]

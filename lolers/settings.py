@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'lolers_app',
+    'riot_api_app',
 ]
 
 MIDDLEWARE = [
