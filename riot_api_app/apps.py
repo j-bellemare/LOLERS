@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ApiHandlerConfig(AppConfig):
+class RiotApiAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'api_handler_app'
+    name = 'riot_api_app'
