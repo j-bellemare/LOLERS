@@ -1,13 +1,17 @@
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from lolers_app.models import GameData, Players
-from drf_yasg.utils import swagger_auto_schema
-from drf_yasg import openapi
-from .serializers import GetMatchesSerializer
-from rest_framework import status
+import os
+
 import requests
 from dotenv import main
-import os
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
+from rest_framework import status
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+from lolers_app.models import GameData, Players
+
+from .serializers import GetMatchesSerializer
+from .utils import calculate_score
 
 riot_base_url = "https://americas.api.riotgames.com/lol/"
 
@@ -19,7 +23,7 @@ riot_base_url = "https://americas.api.riotgames.com/lol/"
         200: openapi.Response(
             description="Get matchs ids by Player",
         ),
-        400: openapi.Response(description="invalid Input"),
+        400: openapi.Response(description="Invalid Input"),
     },
 )
 @api_view(["POST"])
