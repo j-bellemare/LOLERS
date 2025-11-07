@@ -3,11 +3,11 @@ from .models import Players, GameData
 
 
 class PlayersAdmin(admin.ModelAdmin):
-    list_display = ("puuid", "name", "tag", "rank")
+    list_display = ("puuid", "name", "tag", "score")
 
 
 class GameDataAdmin(admin.ModelAdmin):
-    list_display = ("id", "game_id", "game_mode", "player", "player_data")
+    list_display = ("id", "game_id", "player", "player_game_score")
 
 
 admin.site.register(Players, PlayersAdmin)
