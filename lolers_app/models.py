@@ -4,7 +4,8 @@ from django.db import models
 
 
 class Players(models.Model):
-    puuid = models.CharField(primary_key=True, max_length=255)
+    id = models.AutoField(primary_key=True, auto_created=True, serialize=False)
+    puuid = models.CharField( max_length=255)
     name = models.CharField(max_length=255)
     tag = models.CharField(max_length=255)
     score = models.FloatField()
